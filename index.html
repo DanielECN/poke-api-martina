@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- ajax -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- canvas -->
+  <script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+
+  <body>
+
+    <header class="text-center pt-5">
+      <h1>Pokeapi ejemplo para la martiniwis</h1>
+      <p class="lead">Un ejemplo de una pokedex</p>
+    </header>
+
+    <div>
+      <form>
+       <div class="row w-50 m-auto">
+            <div class="col-12 col-sm-6">
+              <label>Ingrese el nombre o numero del 1 al 905</label>
+            </div>
+          <div class="col-12 col-sm-6">
+            <input class="form-control" id="pokemonInput"></input>
+          </div>
+       </div>
+       <button class="btn btn-primary mx-auto d-block my-3">Consultar</button>
+      </form>
+    </div>
+
+    <div class="row container">
+      <div class="col-12 col-sm-6" id="pokeInfo"></div>
+      <div class="col-12 col-sm-6" id="pokeStats" style="height: 300px; width:auto;"></div>
+    </div>
+
+
+
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
